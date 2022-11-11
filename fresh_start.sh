@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dev_path="${HOME}/Dev"
-casks=("google-chrome" "clipy" "spectacle" "iterm2" "visual-studio-code" "notion" "sublime-text" "jetbrains-toolbox" "postman" "alfred" "docker")
+casks=("google-chrome" "clipy" "spectacle" "iterm2" "visual-studio-code" "notion" "sublime-text" "jetbrains-toolbox" "postman" "alfred" "docker" "flutter" "android-studio")
 packages=("git" "node" "python" "openjdk@17" "dockutil" "neovim")
 installed=$(brew list --versions)
 dock=false
